@@ -5,7 +5,7 @@ const Header = () => {
         <div className="header_desc ">
           <h1 className="hi_name">Hi, I'm <span>Ripunjay</span></h1> 
           <div className="titles">
-          <p className="title1">Software Developer</p>
+          <p className="title1">Developer</p>
           <p className="title2">Designer</p>
           <p className="title3">Student</p>
           </div>
