@@ -144,6 +144,8 @@ nav .nav_content_container {
   flex-direction: stretch;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  padding-top: 10px;
+
 }
 
 nav .nav_content_container .nav_container_item {
@@ -201,6 +203,7 @@ nav .nav_content_container .nav_text_links li {
   position: relative;
   padding: 10px 0;
   overflow: hidden;
+  
 }
 
 nav .nav_content_container .nav_text_links li::before {
@@ -221,9 +224,10 @@ nav .nav_content_container .nav_text_links li::before {
 nav .nav_content_container .nav_text_links li:hover::before {
   -webkit-transform: translateX(0);
   transform: translateX(0);
+
 }
 
-nav .nav_content_container .contact_button a button {
+/* nav .nav_content_container .contact_button a button {
   color: #fff;
   padding: 8px 20px;
   letter-spacing: 0.5px;
@@ -235,7 +239,7 @@ nav .nav_content_container .contact_button a button {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   text-transform: uppercase;
-}
+} */
 
 nav .nav_content_container .contact_button a button:hover {
   background: #f90000;
@@ -732,7 +736,7 @@ header .header_desc h1 span {
     margin: 0 0;
   }
   nav .nav_content_container .nav_logo_container {
-    width: 50px;
+    width: 30px;
   }
   header .header_desc {
     width: 100%;

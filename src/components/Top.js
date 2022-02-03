@@ -1,7 +1,7 @@
 const Top = () => {
   return (
     <div className="top" onClick={() => window.scrollTo(0, 0)}>
-      <i class="fas fa-arrow-up"></i>
+      <i className="fas fa-arrow-up"></i>
     </div>
   )
 }

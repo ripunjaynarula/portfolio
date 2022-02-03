@@ -1,5 +1,5 @@
 import { useRef } from "react"
-import Logo from "../assets/logo.png"
+// import Logo from "../assets/logo.png"
 
 const Nav = () => {
   const burgerMenuRef = useRef()
@@ -23,7 +23,7 @@ const Nav = () => {
     <nav ref={navRef}>
       <div className="nav_left_content nav_content_container">
         <div className="nav_logo_container nav_container_item">
-          <img src={Logo} alt="Main Logo" />
+          {/* <img src={Logo} alt="Main Logo" /> */}
         </div>
 
         <ul className="nav_links nav_text_links nav_container_item" ref={listNavRef}>
@@ -53,9 +53,7 @@ const Nav = () => {
           </a></li>
         </ul>
 
-        {/* <div className="contact_button nav_container_item">
-          <a target="_blank" href=""><button>Let's Talk</button></a>
-        </div> */}
+        
       </div>
 
       <div className="bars" ref={burgerMenuRef} onClick={ToggleNav}>
