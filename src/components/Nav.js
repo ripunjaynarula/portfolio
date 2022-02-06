@@ -36,9 +36,9 @@ const Nav = () => {
 
       <div className="nav_right_content nav_content_container">
         <ul className="social_links nav_container_item nav_links">
-          <li><a href="https://www.facebook.com/ripunjay.narula/" target="_blank" rel="noopener noreferrer">
+          {/* <li><a href="https://www.facebook.com/ripunjay.narula/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-facebook-f"></i>
-          </a></li>
+          </a></li> */}
           <li><a href="https://github.com/ripunjaynarula" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github"></i>
           </a></li>
@@ -48,9 +48,9 @@ const Nav = () => {
           <li><a href="https://www.linkedin.com/in/ripunjaynarula/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin-in"></i>
           </a></li>
-          <li><a href="https://www.instagram.com/ripunjaynarula/" target="_blank" rel="noopener noreferrer">
+          {/* <li><a href="https://www.instagram.com/ripunjaynarula/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-instagram"></i>
-          </a></li>
+          </a></li> */}
         </ul>
 
         
