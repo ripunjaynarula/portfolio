@@ -500,7 +500,7 @@ header .header_desc h1 span {
   transform: translateY(-3px);
 }
 
-.contact_section .contact_content_wrapper {
+.contact .contact_content_wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -518,27 +518,27 @@ header .header_desc h1 span {
   flex-wrap: wrap;
 }
 
-.contact_section .contact_content_wrapper .contact_form {
+.contact .contact_content_wrapper .contact_form {
   width: 600px;
   margin-right: 20px;
 }
 
-.contact_section .contact_content_wrapper .contact_form .contact_form_title {
+.contact .contact_content_wrapper .contact_form .contact_form_title {
   margin-bottom: 30px;
 }
 
-.contact_section .contact_content_wrapper .contact_form .contact_form_title h2 {
+.contact .contact_content_wrapper .contact_form .contact_form_title h2 {
   font-weight: 100;
   font-family: Noto Sans;
   font-size: 4rem;
   margin-bottom: 10px;
 }
 
-.contact_section .contact_content_wrapper .contact_form .contact_form_title p {
+.contact .contact_content_wrapper .contact_form .contact_form_title p {
   color: #9597a2;
 }
 
-.contact_section
+.contact
   .contact_content_wrapper
   .contact_form
   .contact_form_title
@@ -547,22 +547,22 @@ header .header_desc h1 span {
   color: #fff;
 }
 
-.contact_section .contact_content_wrapper .contact_form .form {
+.contact .contact_content_wrapper .contact_form .form {
   width: 100%;
 }
 
-.contact_section .contact_content_wrapper .contact_form .form .single_field {
+.contact .contact_content_wrapper .contact_form .form .single_field {
   width: 100%;
   margin: 10px 0;
 }
 
-.contact_section
+.contact
   .contact_content_wrapper
   .contact_form
   .form
   .single_field
   input,
-.contact_section
+.contact
   .contact_content_wrapper
   .contact_form
   .form
@@ -578,7 +578,7 @@ header .header_desc h1 span {
   resize: none;
 }
 
-.contact_section
+.contact
   .contact_content_wrapper
   .contact_form
   .form
@@ -598,7 +598,7 @@ header .header_desc h1 span {
   display: inline-block;
 }
 
-.contact_section
+.contact
   .contact_content_wrapper
   .contact_form
   .form
@@ -633,10 +633,10 @@ header .header_desc h1 span {
 }
 
 @media screen and (max-width: 1210px) {
-  .contact_section .contact_content_wrapper .contact_form {
+  .contact .contact_content_wrapper .contact_form {
     width: 500px;
   }
-  .contact_section .contact_content_wrapper .contact_img {
+  .contact .contact_content_wrapper .contact_img {
     width: 400px;
   }
 }
@@ -720,18 +720,18 @@ header .header_desc h1 span {
   .services_section .service_content_wrapper .single_service {
     width: 330px;
   }
-  .contact_section .contact_content_wrapper {
+  .contact .contact_content_wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
   }
-  .contact_section .contact_content_wrapper .contact_form {
+  .contact .contact_content_wrapper .contact_form {
     width: 500px;
     margin-right: 0;
     max-width: 95%;
   }
-  .contact_section .contact_content_wrapper .contact_img {
+  .contact .contact_content_wrapper .contact_img {
     width: 500px;
     margin-bottom: 20px;
     max-width: 95%;

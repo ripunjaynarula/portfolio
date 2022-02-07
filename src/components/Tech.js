@@ -6,7 +6,7 @@ const Tech = () => {
       <section className="tech_section" id="techstack">
         <SectionTitle
           title="My Tech Stack"
-          desc="A list of tools I use and Technologies I am proficient with."
+          desc="A list of tools I use and technologies I am proficient with."
         />
 
        

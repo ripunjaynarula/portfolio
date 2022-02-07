@@ -2,6 +2,10 @@ import Resume from "../assets/Resume.pdf";
 
 const Header = () => {
   return (
+    <>
+    <div id="home">
+
+    </div>
     <header>
       <div className="container " id="header">
         <div className="header_desc ">
@@ -22,6 +26,7 @@ const Header = () => {
             </div>
       </div>
     </header>
+    </>
   )
 }
 
