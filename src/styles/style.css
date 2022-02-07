@@ -154,11 +154,12 @@ nav .nav_content_container .nav_container_item {
 
 nav .nav_content_container .nav_logo_container {
   
-  width: 70px;
+  width: 80px;
 }
 
+
 nav .nav_content_container .nav_logo_container img {
-  width: 50%;
+  width:40%;
 }
 
 nav .nav_content_container .nav_links {
@@ -778,7 +779,10 @@ header .header_desc h1 span {
     margin: 0 0;
   }
   nav .nav_content_container .nav_logo_container {
-    width: 70px;
+    width: 25px;
+  }
+  nav .nav_content_container .nav_logo_container img {
+    width:130%;
   }
   header .header_desc {
     width: 100%;
