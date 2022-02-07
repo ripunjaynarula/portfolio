@@ -5,9 +5,8 @@ const Header = () => {
     <header>
       <div className="container " id="header">
         <div className="header_desc ">
-          <h1 className="hi_name"><b>Hi, I'm <span>Ripunjay Narula</span></b></h1> 
-          <p className="quote" style={{marginTop:"-12px"}}><i>"You miss 100% of the shots you don't take."</i> <br/><span className="byline">-Wayne Gretzky</span>"</p>
-         <br/>
+          <h1 className="hi_name"><b>Hi, I'm <span>Ripunjay</span></b></h1> 
+         
           <div className="titles" >
           <p className="title1" ><span className="firstletter">D</span>eveloper</p>
           <p className="title2"><span className="firstletter">D</span>esigner</p>
@@ -15,8 +14,10 @@ const Header = () => {
           </div>
           {/* <h2>Software Developer</h2> */}
         </div>
-        <br/><br/>
-        <div className="resume_button title4" style={{marginTop:"-22px"}}>
+        <br/>
+        <p className="quote" ><i>"You miss 100% of the shots you don't take."</i> <br/><span className="byline">-Wayne Gretzky</span>"</p>
+         <br/>
+        <div className="resume_button title4" >
               <a target="_blank" download="Resume.pdf" rel="noopener noreferrer" href={Resume}>Download Resume</a>
             </div>
       </div>

@@ -153,11 +153,12 @@ nav .nav_content_container .nav_container_item {
 }
 
 nav .nav_content_container .nav_logo_container {
+  
   width: 70px;
 }
 
 nav .nav_content_container .nav_logo_container img {
-  width: 100%;
+  width: 50%;
 }
 
 nav .nav_content_container .nav_links {
@@ -778,7 +779,7 @@ header .header_desc h1 span {
   }
 }
 .quote {
-  animation: fadeInAnimation ease 1s;
+  animation: fadeInAnimation ease 3.25s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   color: #9597a2;
