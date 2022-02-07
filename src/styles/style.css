@@ -71,7 +71,7 @@ html {
   padding: 10px 15px;
   border-radius: 100%;
   background: #fff;
-  color: #f90000;
+  color: #B40301;
   font-size: 1.1rem;
   cursor: pointer;
   -webkit-transition: 0.3s;
@@ -82,7 +82,7 @@ html {
 }
 
 .top:hover {
-  background: #f90000;
+  background: #B40301;
   color: #fff;
 }
 
@@ -186,7 +186,7 @@ nav .nav_content_container .nav_links li {
 }
 
 nav .nav_content_container .nav_links li:hover i {
-  color: #f90000;
+  color: #B40301;
   -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
 }
@@ -215,7 +215,7 @@ nav .nav_content_container .nav_text_links li::before {
   left: 0;
   width: 200%;
   height: 3px;
-  background: #f90000;
+  background: #B40301;
   border-radius: 1px;
   -webkit-transform: translateX(-110%);
   transform: translateX(-110%);
@@ -244,8 +244,8 @@ nav .nav_content_container .nav_text_links li:hover::before {
 } */
 
 nav .nav_content_container .contact_button a button:hover {
-  background: #f90000;
-  border-color: #f90000;
+  background: #B40301;
+  border-color: #B40301;
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
@@ -294,12 +294,12 @@ header .header_desc h1 {
 }
 
 header .header_desc .firstletter {
-  color: #f90000;
+  color: #B40301;
   font-weight: 900 !important; 
 }
 
 header .header_desc h1 span {
-  color: #f90000;
+  color: #B40301;
   font-weight: 900;
 
 }
@@ -341,9 +341,9 @@ header .header_desc h1 span {
     left top,
     right top,
     from(#f81f03),
-    to(#f90000)
+    to(#B40301)
   );
-  background: linear-gradient(to right, #f81f03, #f90000);
+  background: linear-gradient(to right, #f81f03, #B40301);
 }
 
 .services_section .service_content_wrapper .single_service:hover .icon i {
@@ -360,7 +360,7 @@ header .header_desc h1 span {
 
 .services_section .service_content_wrapper .single_service .icon i {
   font-size: 3rem;
-  color: #f90000;
+  color: #B40301;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -446,10 +446,10 @@ header .header_desc h1 span {
     linear,
     left top,
     left bottom,
-    from(#f90000c9),
+    from(#B40301c9),
     to(#000000b2)
   ) !important;
-  background: linear-gradient(to bottom, #f90000c9, #000000b2) !important;
+  background: linear-gradient(to bottom, #B40301c9, #000000b2) !important;
   -webkit-animation: opacityZeroToHero 0.5s ease;
   animation: opacityZeroToHero 0.5s ease;
   -webkit-transform: scale(1.02);
@@ -492,8 +492,8 @@ header .header_desc h1 span {
   .project_desc
   .linked_button
   a:hover {
-  background: #f90000;
-  border-color: #f90000;
+  background: #B40301;
+  border-color: #B40301;
   -webkit-box-shadow: 0 0 5px #101010;
   box-shadow: 0 0 5px #101010;
   -webkit-transform: translateY(-3px);
@@ -586,8 +586,8 @@ header .header_desc h1 span {
   button {
   padding: 15px 40px;
   font-size: 1.1rem;
-  background: #f90000;
-  border: 2px solid #f90000;
+  background: #B40301;
+  border: 2px solid #B40301;
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
@@ -605,7 +605,7 @@ header .header_desc h1 span {
   .submit_button
   button:hover {
   background: none;
-  color: #f90000;
+  color: #B40301;
   -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
 }
@@ -697,7 +697,7 @@ header .header_desc h1 span {
     width: 35px;
     height: 3px;
     margin: 5px 0;
-    background: #f90000;
+    background: #B40301;
     border-radius: 1px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -912,10 +912,10 @@ width:10px;
     linear,
     left top,
     left bottom,
-    from(#f90000c9),
+    from(#B40301c9),
     to(#000000b2)
   ) !important;
-  background: linear-gradient(to bottom, #f90000c9, #000000b2) !important;
+  background: linear-gradient(to bottom, #B40301c9, #000000b2) !important;
   -webkit-animation: opacityZeroToHero 0.5s ease;
   animation: opacityZeroToHero 0.5s ease;
   -webkit-transform: scale(1.02);
@@ -948,8 +948,8 @@ width:10px;
 }
 
 .techstack a:hover {
-  background: #f90000;
-  border-color: #f90000;
+  background: #B40301;
+  border-color: #B40301;
   -webkit-box-shadow: 0 0 5px #101010;
   box-shadow: 0 0 5px #101010;
   -webkit-transform: translateY(-3px);
@@ -1008,10 +1008,10 @@ width:10px;
     linear,
     left top,
     left bottom,
-    from(#f90000c9),
+    from(#B40301c9),
     to(#000000b2)
   ) !important;
-  background: linear-gradient(to bottom, #f90000c9, #000000b2) !important;
+  background: linear-gradient(to bottom, #B40301c9, #000000b2) !important;
   -webkit-animation: opacityZeroToHero 0.5s ease;
   animation: opacityZeroToHero 0.5s ease;
   -webkit-transform: scale(1.02);
@@ -1049,8 +1049,8 @@ width:10px;
   .project_desc
   .linked_button
   a:hover {
-  background: #f90000;
-  border-color: #f90000;
+  background: #B40301;
+  border-color: #B40301;
   -webkit-box-shadow: 0 0 5px #101010;
   box-shadow: 0 0 5px #101010;
   -webkit-transform: translateY(-3px);
@@ -1061,8 +1061,8 @@ width:10px;
   a {
   padding: 15px 40px;
   font-size: 1.1rem;
-  background: #f90000;
-  border: 2px solid #f90000;
+  background: #B40301;
+  border: 2px solid #B40301;
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
@@ -1075,7 +1075,7 @@ width:10px;
 .resume_button
   a:hover {
   background: none;
-  color: #f90000;
+  color: #B40301;
   -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
 }
