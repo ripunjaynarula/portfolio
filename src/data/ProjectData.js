@@ -22,10 +22,10 @@ const ProjectData = [
   },
   {
     id: "project3",
-    title: "Racial Microaggression Detection",
-    category: "Natural Language Processing",
+    title: "Metaverse Meme Collection based on Solana",
+    category: "Web3/Blockchain",
     img: Project3,
-    link: "https://github.com/ripunjaynarula/Serenity-Racial-Microaggression-Detection"
+    link: "https://github.com/ripunjaynarula/MemeGallery.git"
   },
   
 ]
