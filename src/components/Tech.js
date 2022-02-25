@@ -74,12 +74,12 @@ const Tech = () => {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />
-          <img src="https://img.icons8.com/color/48/000000/css3.png" />
-          <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" />
-          <img src="https://img.icons8.com/color/48/000000/bootstrap.png" />
-          <img src="https://img.icons8.com/office/48/000000/react.png" />
-          <img src="https://img.icons8.com/color/48/000000/material-ui.png" />
+          <img alt="skill" src="https://img.icons8.com/color/48/000000/html-5--v1.png" />
+          <img alt="skill"  src="https://img.icons8.com/color/48/000000/css3.png" />
+          <img  alt="skill" src="https://img.icons8.com/color/48/000000/javascript--v1.png" />
+          <img  alt="skill" src="https://img.icons8.com/color/48/000000/bootstrap.png" />
+          <img  alt="skill" src="https://img.icons8.com/office/48/000000/react.png" />
+          <img  alt="skill" src="https://img.icons8.com/color/48/000000/material-ui.png" />
         </Modal.Body>
         <Modal.Footer>
           <div className="btn-closer" onClick={() => setfeShow(false)}>
@@ -101,9 +101,9 @@ const Tech = () => {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <img src="https://img.icons8.com/external-prettycons-flat-prettycons/48/000000/external-php-web-and-seo-prettycons-flat-prettycons.png" />
-          <img src="https://img.icons8.com/color/48/000000/sql.png" />
-          <img src="https://img.icons8.com/color/48/000000/mongodb.png" />
+          <img alt="skill"  src="https://img.icons8.com/external-prettycons-flat-prettycons/48/000000/external-php-web-and-seo-prettycons-flat-prettycons.png" />
+          <img alt="skill"  src="https://img.icons8.com/color/48/000000/sql.png" />
+          <img  alt="skill" src="https://img.icons8.com/color/48/000000/mongodb.png" />
         </Modal.Body>
         <Modal.Footer>
           <div className="btn-closer" onClick={() => setbeShow(false)}>
@@ -131,7 +131,7 @@ const Tech = () => {
             data-width="48"
             data-height="48"
           ></span>
-          <img src="https://img.icons8.com/color/48/000000/anchor.png" />
+          <img  alt="skill" src="https://img.icons8.com/color/48/000000/anchor.png" />
         </Modal.Body>
         <Modal.Footer>
           <div className="btn-closer" onClick={() => setbcShow(false)}>
@@ -152,9 +152,9 @@ const Tech = () => {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-        <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/>
-        <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"/>
-        <img src="https://img.icons8.com/color/48/000000/python--v1.png"/>
+        <img  alt="skill" src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/>
+        <img  alt="skill" src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"/>
+        <img alt="skill"  src="https://img.icons8.com/color/48/000000/python--v1.png"/>
 
         </Modal.Body>
         <Modal.Footer>
