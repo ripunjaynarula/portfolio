@@ -7,18 +7,40 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Top from "./components/Top";
+import LoadingScreen from 'react-loading-screen';
+import { useState, useEffect} from "react";
 
 
 const App = () => {
+
+  const [load, setLoad] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoad(false);
+    }, 2500);
+    return () => clearTimeout(timer);
+
+  });
+
   return (
     <div>
-      <Top />
+      <LoadingScreen
+    loading={load}
+    bgColor='#191919'
+    spinnerColor='#B40301'
+    textColor='white'
+    // logoSrc='/logo.png'
+  > 
+    <Top />
       <Nav />
       <Header />
       <Tech />
       <Projects />
       <Contact />
       <Footer />
+  </LoadingScreen>
+      
     </div>
   );
 };
