@@ -27,10 +27,10 @@ const Nav = () => {
         </div>
 
         <ul className="nav_links nav_text_links nav_container_item" ref={listNavRef}>
-          <li ><a href="#home">Home</a></li>
-          <li><a href="#techstack">Tech Stack</a></li>
-          <li><a href="#project">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <a href="#home"><li >Home</li></a>
+          <a href="#techstack"><li >Tech Stack</li></a>
+          <a href="#project"><li >Projects</li></a>
+          <a href="#contact"><li >Contact</li></a>
         </ul>
       </div>
 

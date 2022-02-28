@@ -200,7 +200,13 @@ nav .nav_content_container .nav_links li:hover i {
   transform: translateY(-3px);
 }
 
-nav .nav_content_container .nav_links li a {
+/* nav .nav_content_container .nav_links li a {
+  text-decoration: none;
+
+  color: #fff;
+} */
+
+nav .nav_content_container .nav_links a {
   text-decoration: none;
 
   color: #fff;
@@ -909,7 +915,7 @@ width:10px;
   width: 200px;
   height: 200px;
   margin: 15px;
-  
+  text-decoration: none;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -975,6 +981,12 @@ width:10px;
   border: 2px solid #9597a2;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+.techstack li {
+
+  text-decoration: none!important;
+  
 }
 
 .techstack a:hover {
@@ -1151,3 +1163,6 @@ background: none;
 
 }
 
+.modal-open{
+  padding-right: 0px !important;
+}
