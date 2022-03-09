@@ -271,7 +271,7 @@ nav .bars {
 }
 
 header {
-  animation: fadeInAnimation ease 0s;
+  animation: fadeInAnimation ease 0s !important;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   height: 100vh;
