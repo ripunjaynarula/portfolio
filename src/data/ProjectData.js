@@ -1,6 +1,6 @@
 import Project1 from "../assets/projects/project1.jpg"
 import Project2 from "../assets/projects/project2.jpg"
-import Project3 from "../assets/projects/project3.png"
+import Project3 from "../assets/projects/project3c.png"
 // import Project4 from "../assets/projects/project4.jpg"
 // import Project5 from "../assets/projects/project5.jpg"
 // import Project6 from "../assets/projects/project6.jpg"
