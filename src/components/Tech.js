@@ -104,6 +104,7 @@ const Tech = () => {
           <img alt="skill"  src="https://img.icons8.com/external-prettycons-flat-prettycons/48/000000/external-php-web-and-seo-prettycons-flat-prettycons.png" />&nbsp;
           <img alt="skill"  src="https://img.icons8.com/color/48/000000/sql.png" />&nbsp;
           <img  alt="skill" src="https://img.icons8.com/color/48/000000/mongodb.png" />&nbsp;
+          <img  alt="skill" src="https://img.icons8.com/color/48/000000/django.png" style={{color:"white"}}/>&nbsp;
         </Modal.Body>
         <Modal.Footer>
           <div className="btn-closer" onClick={() => setbeShow(false)}>
