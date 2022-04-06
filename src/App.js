@@ -34,7 +34,7 @@ const App = () => {
   > 
     <Top />
       <Nav />
-      <Header />
+      <Header style={{backgroundColor:"black"}} />
       <Tech />
       <Projects />
       <Contact />
