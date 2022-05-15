@@ -290,7 +290,8 @@ header {
   flex-direction: stretch;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  background: url(../assets/headerBG.jpg);
+  background-image: url(../assets/headerBG.jpg);
+  background-color: #000 ;
   background-size: cover;
   background-position: center;
 }
