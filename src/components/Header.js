@@ -14,7 +14,7 @@ const Header = () => {
           <div className="titles" >
           <p className="title1" ><span className="firstletter">D</span>eveloper</p>
           <p className="title2"><span className="firstletter">D</span>esigner</p>
-          <p className="title3"><span className="firstletter">S</span>tudent</p>
+          {/* <p className="title3"><span className="firstletter">S</span>tudent</p> */}
           </div>
           {/* <h2>Software Developer</h2> */}
         </div>
