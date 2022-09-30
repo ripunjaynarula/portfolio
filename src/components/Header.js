@@ -1,4 +1,4 @@
-import Resume from "../assets/Resume.pdf";
+import Resume from "../assets/Resume-RipunjayNarula.pdf";
 
 const Header = () => {
   return (
@@ -22,7 +22,7 @@ const Header = () => {
         <p className="quote" ><i>"You miss 100% of the shots you don't take."</i> <br/><span className="byline">-Wayne Gretzky</span></p>
          <br/>
         <div className="resume_button title4" >
-              <a target="_blank" download="Resume.pdf" rel="noopener noreferrer" href={Resume}>Download Resume</a>
+              <a target="_blank" download="Resume-RipunjayNarula.pdf" rel="noopener noreferrer" href={Resume}>Download Resume</a>
             </div>
       </div>
     </header>
